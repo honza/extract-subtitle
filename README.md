@@ -18,15 +18,16 @@ $ go get github.com/honza/extract-subtitle
 ## Usage
 
 ```
-$ extract-subtitle --help
 Extract embedded subtitles froma video file
 
 Usage:
-  extract-subtitle [video-file] [language] [output-file] [flags]
+  extract-subtitle [video-file] [flags]
 
 Flags:
       --ffmpeg-bin string   Alternative path to ffmpeg (default "ffmpeg")
   -h, --help                help for extract-subtitle
+  -l, --language string     Subtitle language to find (default "eng")
+  -o, --output string       Defaults to same as input but with .srt
 ```
 
 ## License
